@@ -2,6 +2,8 @@
 
 export DB_HOST=localhost
 
+apt-get install python3-dev default-libmysqlclient-dev build-essential
+
 # instala o virtualenv para ter ambientes isolados
 python -m pip install virtualenv wheel --no-cache-dir
 
